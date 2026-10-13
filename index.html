@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080808">
+<title>Папе — 50 · by Andrew</title><meta name="description" content="Личное письмо папе в день его пятидесятилетия. От Андрея.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Crect width='80' height='80' fill='%230D1B14'/%3E%3Ctext x='40' y='55' text-anchor='middle' font-family='Georgia' font-size='48' fill='%23F3F1EB'%3E50%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body class="sealed">
+<div class="intro" id="intro">
+ <div class="card" aria-label="Поздравительная визитка">
+  <span class="byline card-detail">by Andrew</span>
+  <div class="engraving"><h1>С днём рождения!!!</h1><span class="laser" aria-hidden="true"></span></div>
+  <button class="open card-detail" id="open" disabled>открыть <span aria-hidden="true">↗</span></button>
+ </div>
+</div>
+<main id="letter" hidden>
+ <header class="masthead"><span data-type>ПАПЕ, С ЛЮБОВЬЮ</span><span data-type>ОТ АНДРЕЯ</span></header>
+ <section class="letter-hero" aria-labelledby="letter-title">
+  <div class="hero-line"><h2 id="letter-title" tabindex="-1" data-type>Дорогой папа,</h2><div class="anniversary" aria-label="50 лет"><span class="fifty">50</span></div></div>
+  <div class="letter-body">
+   <p data-type>поздравляю тебя с днем рождения и по совместительству пятидесятилетием.</p>
+   <p data-type>Я желаю тебе всего самого наилушего, а в особенности, чтобы все твои ожидания исполнялись.</p>
+  </div>
+  <div class="letter-bottom"><span class="signature" data-type>Твой Андрей</span></div>
+ </section>
+ <section class="memories" id="memories" aria-label="Фотографии">
+  <figure class="photo first"><button class="photo-button" data-photo="together.jpg" aria-label="Открыть первую фотографию целиком"><img src="together.jpg" width="1824" height="1368" loading="lazy" decoding="async" alt="Совместная фотография с папой на празднике"><span class="photo-zoom" aria-hidden="true">↗</span></button><figcaption><span data-type>ВМЕСТЕ.</span><span>01 / 02</span></figcaption></figure>
+  <figure class="photo second"><button class="photo-button" data-photo="memories.jpg" aria-label="Открыть вторую фотографию целиком"><img src="memories.jpg" width="1336" height="1156" loading="lazy" decoding="async" alt="Общая фотография с папой в необычных декорациях"><span class="photo-zoom" aria-hidden="true">↗</span></button><figcaption style="justify-content:flex-end"><span>02 / 02</span></figcaption></figure>
+ </section>
+ <footer><span class="eyebrow" data-type>С ЛЮБОВЬЮ, ВСЕГДА.</span><p data-type>С юбилеем, папа.</p><div class="footer-bottom"><span>by Andrew</span><button id="replay">к началу <span aria-hidden="true">↗</span></button><span>50</span></div></footer>
+</main>
+<dialog id="viewer" aria-label="Просмотр фотографии"><button class="close-viewer" autofocus aria-label="Закрыть фотографию">закрыть ×</button><img alt="" id="viewer-image"></dialog>
+<noscript><style>.intro{display:none}body.sealed{overflow:auto}main[hidden]{display:block}</style></noscript>
+</body></html>
